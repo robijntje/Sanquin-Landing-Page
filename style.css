@@ -43,6 +43,11 @@
     color: #fff;
     width: 100%;
     margin: 16px;
+
+    border: none;
+    padding: 16px;
+    font-size: 1em;
+    font-weight: bold;
   }
   
   .secondary-button {
@@ -50,6 +55,11 @@
     color: #000;
     width: 40%;
     margin: 16px;
+
+    border: none;
+    padding: 16px;
+    font-size: 1em;
+    font-weight: bold;
   }
 
   footer {
