@@ -27,15 +27,16 @@
 
   h1 {
     color: #c00;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: bold;
     margin: 16px;
   }
   
   p {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #333;
     margin: 16px;
+    font-weight: bold;
   }
 
   .primary-button {
