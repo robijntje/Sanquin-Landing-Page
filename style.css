@@ -71,5 +71,5 @@
 
   .heart-image {
     width: 100%; /* Image scales to size of mobile phone, always 100% */
-    margin: 32px auto;
+    margin: 16px auto;
   }
