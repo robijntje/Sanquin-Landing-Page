@@ -23,3 +23,16 @@
     width: 120px;
     margin: 20px 0;
   }
+
+  h1 {
+    color: #c00;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 16px 0;
+  }
+  
+  p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 16px;
+  }
