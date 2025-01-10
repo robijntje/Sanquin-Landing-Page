@@ -41,7 +41,7 @@
   .menu-icon {
     font-size: 20px;
     padding: 10px;
-    background-color: #d32f2f;
+
     color: white;
     position: fixed;
     top: 36px; /* Will be updated with correct value later */

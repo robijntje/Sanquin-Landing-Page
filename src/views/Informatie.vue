@@ -76,7 +76,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  background-color: #d32f2f;
+
   color: white;
   padding: 16px;
   margin-top: 30px;
