@@ -79,7 +79,7 @@ body {
   align-items: center;
   background-color: #d32f2f;
   color: white;
-  padding: 16px
+  padding: 16px;
 }
 
 h1 {
