@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="informatie">
     <header class="header">
-      <h1>Meer informatie</h1>
+      <h1 class="header-title">Meer informatie</h1>
     </header>
 
     <main>
@@ -80,6 +80,13 @@ body {
   background-color: #d32f2f;
   color: white;
   padding: 16px;
+  margin-top: 50px;
+
+}
+
+.header-title {
+  font-size: 20px;
+  margin-left: 32px;
 }
 
 h1 {
@@ -132,6 +139,5 @@ h1 {
   font-size: 16px;
   display: flex;
   justify-content: center;
-
 }
 </style>
