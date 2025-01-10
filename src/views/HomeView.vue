@@ -54,8 +54,6 @@ export default {
   }
   
   body {
-    background-color: #fff;
-    color: #000;
     /* Line height for Chrome and Safari is 1.0. This code is made for future compatibility with other browsers. */
     line-height: 1.0;
     font-family: "aileron";

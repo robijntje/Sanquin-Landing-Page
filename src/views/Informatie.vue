@@ -65,7 +65,6 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: #f0f0f0;
 }
 
 .content-box {
