@@ -9,12 +9,14 @@
         <input type="text" v-model="searchQuery" placeholder="Wat wil je weten?" />
       </div>
 
+    <div class="content-box">
       <div class="questions-list">
         <router-link v-for="item in filteredQuestions" :key="item" :to="getRoute(item)" class="questions-item">
           {{ item }}
         </router-link>
       </div>
       <button class="contact-button">App met ons</button>
+    </div>
     </main>
   </div>
 </template>
@@ -66,12 +68,18 @@ body {
   background-color: #f0f0f0;
 }
 
+.content-box {
+  background-color: black;
+  padding: 16px;
+  margin: 0 16px;
+}
+
 .header {
   display: flex;
   align-items: center;
   background-color: #d32f2f;
   color: white;
-  padding: 16px;
+  padding: 16px
 }
 
 h1 {
@@ -95,7 +103,7 @@ h1 {
 .questions-list {
   display: flex;
   flex-direction: column;
-  margin: 0 20px;
+
 }
 
 .questions-item {
@@ -104,7 +112,7 @@ h1 {
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 32px;
   text-align: left;
   font-size: 16px;
   text-decoration: none;
@@ -122,8 +130,8 @@ h1 {
   border-radius: 4px;
   padding: 16px;
   font-size: 16px;
-  margin: 20px;
   display: flex;
   justify-content: center;
+
 }
 </style>
