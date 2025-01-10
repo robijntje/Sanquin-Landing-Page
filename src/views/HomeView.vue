@@ -13,7 +13,7 @@
     <!-- Main Content -->
     <main>
       <!-- Slogan -->
-      <h1>Doneer bloed.<br />Red levens.</h1>
+      <h1>DONEER BLOED.<br />RED LEVENS.</h1>
 
       <!-- Heart image at the center -->
       <img
@@ -56,7 +56,7 @@ export default {
   body {
     /* Line height for Chrome and Safari is 1.0. This code is made for future compatibility with other browsers. */
     line-height: 1.0;
-    font-family: "aileron";
+    font-family: "proxima-nova";
   }
   
   .container {
@@ -75,6 +75,7 @@ export default {
   h1 {
     color: #c00;
     font-size: 2.2em;
+    font-weight: 800;
     font-weight: bold;
     margin: 16px;
     line-height: 35px;
