@@ -46,8 +46,8 @@ export default {
   },
   methods: {
     getRoute(item) {
-      // Finds route for question based on name of question
-      return `/informatie/${item.toLowerCase()}`;
+      // Finds route for question based on name of question. Filters out spaces.
+      return `/informatie/${item.toLowerCase().replace(/[^a-z0-9]+/g, '')}`;
     }
   }
 };
