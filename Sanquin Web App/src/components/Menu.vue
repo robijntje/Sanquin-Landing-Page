@@ -44,8 +44,8 @@
     background-color: #d32f2f;
     color: white;
     position: fixed;
-    top: 10px; /* Will be updated with correct value later */
-    left: 10px; /* Will be updated with correct value later */
+    top: 36px; /* Will be updated with correct value later */
+    left: 16px; /* Will be updated with correct value later */
     z-index: 1100;
     border-radius: 4px;
   }

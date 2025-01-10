@@ -80,13 +80,13 @@ body {
   background-color: #d32f2f;
   color: white;
   padding: 16px;
-  margin-top: 50px;
+  margin-top: 30px;
 
 }
 
 .header-title {
   font-size: 20px;
-  margin-left: 32px;
+  margin-left: 40px;
 }
 
 h1 {
