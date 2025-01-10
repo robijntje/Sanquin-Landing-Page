@@ -17,8 +17,8 @@
 
       <!-- Heart image at the center -->
       <img
-        src="@/assets/heart-red.png"
-        alt="A heart starting with one line and ending with three lines"
+        src="@/assets/heart-new-red-cropped.png"
+        alt="A heart in red"
         class="heart-image"
       />
 
@@ -68,8 +68,8 @@ export default {
 
   /* Sanquin Logo at home page */
   header .logo {
-    width: 175px;
-    margin: 16px 0 0 0;
+    width: 150px;
+    margin-top: 30px;
   }
 
   h1 {
@@ -77,18 +77,19 @@ export default {
     font-size: 2.2em;
     font-weight: bold;
     margin: 16px;
+    line-height: 35px;
   }
   
   p {
-    font-size: 1.2em;
+    font-size: 20px;
     color: #333;
     margin: 16px;
-    font-weight: bold;
+
   }
 
   .primary-button {
-    background-color: #c00;
-    color: #fff;
+    background-color: #FF6700;
+    color: #000;
     width: 100%;
     margin: 16px;
 
@@ -99,7 +100,7 @@ export default {
   }
   
   .secondary-button {
-    background-color: #f5f5f5;
+    background-color: #FF6F61EF;
     color: #000;
     width: 40%;
     margin: 16px;
@@ -117,7 +118,7 @@ export default {
   }
 
   .heart-image {
-    width: 100%; /* Image scales to size of mobile phone, always 100% */
-    margin: 16px auto;
+    width: 50%; /* Image scales to size of mobile phone, always 100% */
+    margin: 16px 16px;
   }
 </style>
