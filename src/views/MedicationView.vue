@@ -125,8 +125,12 @@ h1 {
   color: black;
 }
 
-.questions-item:hover {
-  background-color: #f5f5f5;
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 16px;
 }
 
 .contact-button {
@@ -140,11 +144,4 @@ h1 {
   justify-content: center;
 }
 
-.circle {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-right: 16px;
-}
 </style>
