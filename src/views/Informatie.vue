@@ -58,7 +58,6 @@ export default {
 <style scoped>
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;     /* Font will be replaced */
 }
 
 .informatie {

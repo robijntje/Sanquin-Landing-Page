@@ -56,7 +56,6 @@ export default {
   body {
     /* Line height for Chrome and Safari is 1.0. This code is made for future compatibility with other browsers. */
     line-height: 1.0;
-    font-family: "proxima-nova";
   }
   
   .container {

@@ -41,11 +41,10 @@
   .menu-icon {
     font-size: 20px;
     padding: 10px;
-
     color: white;
     position: fixed;
-    top: 36px; /* Will be updated with correct value later */
-    left: 16px; /* Will be updated with correct value later */
+    top: 36px; 
+    left: 16px; 
     z-index: 1100;
     border-radius: 4px;
   }

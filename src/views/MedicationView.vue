@@ -60,7 +60,6 @@ export default {
 <style scoped>
 body {
   margin: 0;
-  font-family: proxima-nova, sans-serif;     /* Font will be replaced */
 }
 
 .medicatie {
