@@ -44,7 +44,7 @@ export default {
         return this.questionsItems;
       }
       return this.questionsItems.filter(item =>
-        item.toLowerCase().includes(this.searchQuery.toLowerCase())
+        item.text.toLowerCase().includes(this.searchQuery.toLowerCase())
       );
     }
   },
@@ -60,7 +60,7 @@ export default {
 <style scoped>
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;     /* Font will be replaced */
+  font-family: proxima-nova, sans-serif;     /* Font will be replaced */
 }
 
 .medicatie {
@@ -142,9 +142,10 @@ h1 {
 }
 
 .circle {
+  display: inline-block;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 16px;
 }
 </style>
