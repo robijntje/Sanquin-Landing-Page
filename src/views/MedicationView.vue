@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="medicatie">
     <header class="header">
-      <h1 class="header-title">Meer informatie</h1>
+      <h1 class="header-title">Zoek medicatie</h1>
     </header>
 
     <main>
@@ -11,8 +11,10 @@
 
     <div class="content-box">
       <div class="questions-list">
-        <router-link v-for="item in filteredQuestions" :key="item" :to="getRoute(item)" class="questions-item">
-          {{ item }}
+        <router-link v-for="(item, index) in filteredQuestions" :key="item.text" :to="getRoute(item.text)" class="questions-item">
+
+          <span class="circle" :style="{ backgroundColor: item.color }"></span>
+          {{ item.text }}
         </router-link>
       </div>
       <button class="contact-button">App met ons</button>
@@ -28,11 +30,11 @@ export default {
     return {
       searchQuery: '',
       questionsItems: [
-        'Paracetamol',
-        'Progynova',
-        'Mag ik met mijn medicatie doneren?',
-        'Mag ik auto rijden na een donatie?',
-        'Wat is het verschil tussen bloed of plasma doneren?'
+        { text: 'Paracetamol', color: 'green' },
+        { text: 'Progynova', color: 'green' },
+        { text: '3', color: 'green' },
+        { text: '4', color: 'green' },
+        { text: '5', color: 'red' }
       ]
     };
   },
@@ -137,5 +139,12 @@ h1 {
   font-size: 16px;
   display: flex;
   justify-content: center;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 </style>
