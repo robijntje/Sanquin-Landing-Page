@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="aanmelden">
+  <div id="app" class="aanmelden" @touchstart="handleTouchStart" @touchend="handleTouchEnd">
     <header class="header">
       <h1 class="header-title">Aanmelden</h1>
     </header>
@@ -25,7 +25,28 @@
 </template>
 
 <script>
+export default {
+  data() {
+    return {
+      startX: 0,
+      endX: 0,
+    };
+  },
+  methods: {
+    handleTouchStart(event) {
+      this.startX = event.touches[0].clientX; // Checks start X position of touch gesture
+    },
+    handleTouchEnd(event) {
+      this.endX = event.changedTouches[0].clientX; // Checks end x postion of touch gesture
+      const deltaX = this.startX - this.endX;
 
+      if (deltaX > 50) {
+        // If swipe more than 50px, to to next page
+        this.$router.push("Informatie");
+      }
+    },
+  },
+};
 </script>
 
 <style scoped>
