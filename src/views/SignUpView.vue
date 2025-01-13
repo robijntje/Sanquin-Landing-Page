@@ -3,13 +3,25 @@
     <header class="header">
       <h1 class="header-title">Aanmelden</h1>
     </header>
-<main>
-    <div class="content-box">
-      
-     
-    </div>
+    <main>
+      <div class="content-box">
+        <section class="step">
+          <div class="icon">
+            <img src="/src/assets/heart-new-red.png" height="100px" alt="Stap 1" />
+          </div>
+          <h2>Je meld je aan.</h2>
+          <p>
+            Start met aanmelden door naar de aanmeldpagina te gaan. Je doorloopt een
+            medische vragenlijst en maakt een afspraak bij jou in de buurt.
+          </p>
+          <button class="register-button">Aanmelden</button>
+
+        </section>
+      </div>
     </main>
+
   </div>
+
 </template>
 
 <script>
@@ -17,9 +29,6 @@
 </script>
 
 <style scoped>
-body {
-  margin: 0;
-}
 
 .aanmelden {
   display: flex;
@@ -39,7 +48,6 @@ body {
   color: white;
   padding: 16px;
   margin-top: 30px;
-
 }
 
 .header-title {
@@ -52,7 +60,7 @@ h1 {
   margin: 0;
 }
 
-.contact-button {
+.register-button {
   background-color: #d32f2f;
   color: white;
   border: none;
@@ -61,5 +69,15 @@ h1 {
   font-size: 16px;
   display: flex;
   justify-content: center;
+}
+
+.step h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.step p {
+  font-size: 16px;
+  margin-bottom: 16px;
 }
 </style>
