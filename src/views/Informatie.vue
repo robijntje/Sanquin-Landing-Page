@@ -123,10 +123,6 @@ h1 {
   color: black;
 }
 
-.questions-item:hover {
-  background-color: #f5f5f5;
-}
-
 .contact-button {
   background-color: #d32f2f;
   color: white;
