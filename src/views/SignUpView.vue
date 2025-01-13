@@ -42,7 +42,7 @@ export default {
 
       if (deltaX > 50) {
         // If swipe more than 50px, to to next page
-        this.$router.push("Informatie");
+        this.$router.push("/informatie");
       }
     },
   },
