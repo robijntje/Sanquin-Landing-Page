@@ -74,10 +74,11 @@ h1 {
 .step h2 {
   font-size: 48px;
   color: white;
+  font-weight: 800;
 }
 
 .step p {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 16px;
   color: white;
 }
