@@ -53,16 +53,16 @@
         },
         {
           id: 3,
-          header: "Anne",
+          header: "Christina",
           subhead: "Kreeg een zeldzame bloedziekte",
-          image: "",
+          image: "https://www.sanquin.nl/binaries/content/gallery/sanquinnl/donor-worden/donor--en-patientverhalen/patientverhaal-christina-o-h.jpg",
           link: ""
         },
         {
           id: 4,
-          header: "Kees",
+          header: "Cheyanne",
           subhead: "Is donoren voor altijd dankbaar",
-          image: "",
+          image: "https://www.sanquin.nl/binaries/content/gallery/sanquinnl/donor-worden/donor--en-patientverhalen/patientverhaal-cheyanne-h.jpg",
           link: ""
         },
       ],
