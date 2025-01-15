@@ -1,6 +1,5 @@
 <script setup>
 </script>
-
 <template>
   <div id="app">
     <!-- Header contains logo in red -->
@@ -41,6 +40,7 @@
 </template>
 
 <script>
+import Menu from '@/components/Menu.vue'
 export default {
   name: "SanquinApp",
 };
