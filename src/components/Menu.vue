@@ -43,6 +43,10 @@
                 text: 'Wil je met mij bloed gaan doneren?',
                 url: window.location.href // Uses current url
             };
+
+            if (navigator.share) {
+              await navigator.share(shareData);
+            }
         });
   </script>
   
