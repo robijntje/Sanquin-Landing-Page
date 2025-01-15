@@ -13,7 +13,7 @@
         <router-link to="/" class="menu-item" @click="toggleMenu">Home</router-link>
         <router-link to="/informatie" class="menu-item" @click="toggleMenu">Meer informatie</router-link>
         <router-link to="/verhalen" class="menu-item" @click="toggleMenu">Bekijk de verhalen</router-link>
-        <button id="shareButton" @click="shareContent">Delen</button>
+        <img id="shareButton" src="@/assets/share-button.svg" alt="Delen" class="share-img"  @click="shareContent" />
       </nav>
     </div>
 
@@ -118,5 +118,9 @@ export default {
   margin-bottom: 16px;
   display: block;
   text-decoration: none;
+}
+
+.share-img {
+  margin-top: 16px;
 }
 </style>
