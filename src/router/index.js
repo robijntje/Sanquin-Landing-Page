@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import Informatie from '@/views/Informatie.vue'
 import MedicationView from '@/views/MedicationView.vue'
 import SignUpView from '@/views/SignUpView.vue'
+import StoryView from '@/views/StoryView.vue'
 
 
 const router = createRouter({
@@ -30,6 +31,12 @@ const router = createRouter({
       path: '/informatie/hoemeldikmeaan',
       name: 'aanmelden',
       component: SignUpView,
+    },
+
+    {
+      path: '/verhalen',
+      name: 'verhalen',
+      component: StoryView,
     },
 
     {

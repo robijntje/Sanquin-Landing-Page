@@ -34,8 +34,8 @@
     <!-- Footer with buttons -->
     <footer>
       <button class="primary-button">Aanmelden</button>
-      <button class="secondary-button">Hoe werkt doneren?</button>
-      <button class="secondary-button">Waarom doneren?</button>
+      <button class="secondary-button">Meer informatie</button>
+      <button class="secondary-button">Bekijk de verhalen</button>
     </footer>
   </div>
 </template>
