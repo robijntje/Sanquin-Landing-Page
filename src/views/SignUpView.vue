@@ -9,7 +9,7 @@
           <div class="icon">
             <img src="/src/assets/heart-new-red.png" height="100px" alt="Stap 1" />
           </div>
-          <h2>Je meld <br /> je aan.</h2>
+          <h2>Je meld je <br /> aan.</h2>
           <p>
             Start met aanmelden door naar de aanmeldpagina te gaan. Je doorloopt een
             medische vragenlijst en maakt een afspraak bij jou in de buurt.

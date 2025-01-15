@@ -61,8 +61,7 @@ export default {
   .container {
     text-align: left;
     max-width: 400px;
-    margin: 0 auto;
-    padding: 16px;
+    margin: 16px;
   }
 
   /* Sanquin Logo at home page */
@@ -75,7 +74,7 @@ export default {
     color: rgb(255, 255, 255);
     font-size: 2.2em;
     font-weight: 800;
-    margin: 16px;
+    margin: 0px 16px 16px 16px;
     line-height: 35px;
   }
   
@@ -90,7 +89,7 @@ export default {
     background-color: #A300FF;
     color: #ffffff;
     width: 100%;
-    margin: 16px;
+    margin: 0px 16px;
     border-radius: 5px;
     border: 0;
     padding: 16px;
