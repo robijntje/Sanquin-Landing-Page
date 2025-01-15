@@ -23,10 +23,10 @@
 
       <!-- Basic facts -->
       <p>
-        Per donatie red je <bold>3 levens.</bold><br />
-        Aanmelden kan in 3 minuten.<br />
-        Reiskosten worden vergoed.<br />
-        Wij helpen je op weg.
+        Per donatie red je <strong>3 levens</strong>.<br />
+        Aanmelden kan in <strong>3 minuten</strong>.<br />
+        Reiskosten worden <strong>vergoed</strong>.<br />
+        Doneer wanneer het <strong>jou uitkomt</strong>.
       </p>
     </main>
 
@@ -119,4 +119,8 @@ export default {
     width: 50%; /* Image scales to size of mobile phone, always 100% */
     margin: 16px 16px;
   }
+
+  p strong {
+  font-weight: bold;
+}
 </style>
