@@ -86,7 +86,7 @@ export default {
   }
 
   .primary-button {
-    background-color: #A300FF;
+    background-color: #0047AB;
     color: #ffffff;
     width: 100%;
     margin: 0px 16px;
@@ -98,7 +98,7 @@ export default {
   }
   
   .secondary-button {
-    background-color: #0047AB;
+    background-color: #A300FF;
     color: #ffffff;
     width: 40%;
     margin: 16px;
