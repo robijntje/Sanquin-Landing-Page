@@ -16,8 +16,8 @@
       <!-- Video list -->
       <div class="content-box">
         <section class="video-list">
-        <div class="video-card" v-for="video in videos" :key="video.id">
-            <div class="video-details">
+        <div class="video-card" v-for="video in videos" :key="video.id" @click="navigateTo(video.link)">
+          <div class="video-details">
             <h3>{{ video.header }}</h3>
             <p>{{ video.subhead }}</p>
           </div>
@@ -36,34 +36,50 @@
  export default {
     data() {
     return {
-      videos: [
+        videos: [
         {
           id: 1,
-          header: "Header 1",
-          subhead: "Subhead 1",
-          image: "@/assets/viora-icon.jpg",
+          header: "Viora",
+          subhead: "Is genezen door bloedtransfusies",
+          image: "https://www.sanquin.nl/binaries/content/gallery/sanquinnl/donor-worden/donor--en-patientverhalen/viora.jpg",
+          link: "https://www.youtube.com/watch?v=jGDGQI92G9I&pp=ygUNc2FucXVpbiB2aW9yYQ%3D%3D"
         },
         {
           id: 2,
-          header: "Header 2",
-          subhead: "Subhead 2",
-          image: "",
+          header: "Lex",
+          subhead: "Een ongeluk schuilt in een klein hoekje",
+          image: "https://www.sanquin.nl/binaries/content/gallery/sanquinnl/donor-worden/donor--en-patientverhalen/patientverhaal_lex_main.png",
+          link: ""
         },
         {
           id: 3,
-          header: "Header 3",
-          subhead: "Subhead 3",
+          header: "Anne",
+          subhead: "Kreeg een zeldzame bloedziekte",
           image: "",
+          link: ""
         },
         {
           id: 4,
-          header: "Header 4",
-          subhead: "Subhead 4",
+          header: "Kees",
+          subhead: "Is donoren voor altijd dankbaar",
           image: "",
+          link: ""
         },
       ],
     };
   },
+  methods: {
+    navigateTo(link) {
+      if (link) {
+        window.location.href = link;
+      }
+    }
+  }
 };
   </script>
   
+  <style scoped>
+    .content-box {
+        padding: 24px 16px 0 16px;
+    }
+</style>

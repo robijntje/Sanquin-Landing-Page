@@ -140,16 +140,15 @@ body {
   
   /* Banner with featured video */  
   .featured-video {
-    background-color: black;
+    background-color: #2C2C2C;
     padding: 16px;
-    margin: 0 16px 16px 16px;
+    margin: 0 16px 24px 16px;
     border-radius: 12px;
   }
 
   .featured-image {
       width: 100%; /* Image scales to size of mobile phone, always 100% */
       height: 150px;
-
     }
   
   /* List with videos */
@@ -183,8 +182,8 @@ body {
   }
   
   .video-icon img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
     object-fit: cover;   /* Can be cover or fill, try what works best */
   }
