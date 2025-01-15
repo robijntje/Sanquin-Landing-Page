@@ -13,6 +13,7 @@
           <router-link to="/" class="menu-item" @click="toggleMenu">Home</router-link>
           <router-link to="/informatie" class="menu-item" @click="toggleMenu">Meer informatie</router-link>
           <router-link to="/verhalen" class="menu-item" @click="toggleMenu">Bekijk de verhalen</router-link>
+          <button id="shareButton">Delen</button>
         </nav>
       </div>
   
@@ -35,6 +36,14 @@
       },
     },
   };
+
+  document.getElementById('shareButton').addEventListener('click', async () => {
+            const shareData = {
+                title: 'Bloed doneren',
+                text: 'Wil je met mij bloed gaan doneren?',
+                url: window.location.href // Uses current url
+            };
+        });
   </script>
   
 
