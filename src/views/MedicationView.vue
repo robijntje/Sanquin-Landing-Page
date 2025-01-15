@@ -6,7 +6,7 @@
 
     <main>
       <div class="search-bar">
-        <input type="text" v-model="searchQuery" placeholder="Hoe heet je medicatie?" />
+        <input type="text" v-model="searchQuery" placeholder="Welke medicatie gebruik je?" />
       </div>
 
     <div class="content-box">

@@ -23,7 +23,7 @@
 
       <!-- Basic facts -->
       <p>
-        Per donatie red je 3 levens.<br />
+        Per donatie red je <bold>3 levens.</bold><br />
         Aanmelden kan in 3 minuten.<br />
         Reiskosten worden vergoed.<br />
         Wij helpen je op weg.
