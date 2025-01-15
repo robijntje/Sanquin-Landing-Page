@@ -61,7 +61,7 @@ export default {
   .container {
     text-align: left;
     max-width: 400px;
-    margin: 16px;
+    margin: 32px 0 16px 16px;
   }
 
   /* Sanquin Logo at home page */
