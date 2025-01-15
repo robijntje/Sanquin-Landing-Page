@@ -43,7 +43,7 @@
     font-size: 20px;
     padding: 10px;
     color: white;
-    background-color: black;
+    background-color:#A300FF;
     position: fixed;
     top: 16px; 
     left: 16px; 
