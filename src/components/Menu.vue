@@ -44,7 +44,7 @@
     padding: 10px;
     color: white;
     position: fixed;
-    top: 36px; 
+    top: 16px; 
     left: 16px; 
     z-index: 1100;
     border-radius: 4px;
