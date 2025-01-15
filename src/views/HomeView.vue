@@ -4,10 +4,6 @@
   <div id="app">
     <!-- Header contains logo in red -->
     <header>
-      <Menu />
-    <transition name="fade" mode="out-in">
-      <router-view />
-    </transition>
       <div class="container">
         <img src="@/assets/sanquin-white.png" alt="Sanquin Logo in white" class="logo" />
       </div>
