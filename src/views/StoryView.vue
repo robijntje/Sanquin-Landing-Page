@@ -8,8 +8,8 @@
             <!-- Featured video image -->
         <div class="featured-video">
             <img
-        src="@/assets/heart-new-red-cropped.png"
-        alt="A heart in red"
+        src="@/assets/viora-banner.jpg"
+        alt="Featured video"
         class="featured-image"
       />
         </div>
@@ -41,7 +41,7 @@
           id: 1,
           header: "Header 1",
           subhead: "Subhead 1",
-          image: "",
+          image: "@/assets/viora-icon.jpg",
         },
         {
           id: 2,
