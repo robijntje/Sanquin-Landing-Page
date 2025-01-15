@@ -16,7 +16,7 @@
 
       <!-- Heart image at the center -->
       <img
-        src="@/assets/heart-new-white.png"
+        src="@/assets/heart-new-white-animated.gif"
         alt="A heart in white"
         class="heart-image"
       />
