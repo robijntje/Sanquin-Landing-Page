@@ -19,6 +19,11 @@
         </section>
       </div>
     </main>
+    <footer class="navinstructions">
+      <img class="left-icon" src="/src/assets/backward.png" height="100px" alt="Achteruit" />
+      <h1>swipe door de stappen</h1>
+      <img class="right-icon" src="/src/assets/forward.png" height="100px" alt="Vooruit" />
+    </footer>
 
   </div>
 
@@ -53,5 +58,32 @@ export default {
 </script>
 
 <style scoped>
+.navinstructions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navinstructions .left-icon {
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.navinstructions .right-icon {
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.navinstructions h1 {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 
 </style>

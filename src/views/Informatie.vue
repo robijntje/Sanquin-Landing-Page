@@ -32,7 +32,6 @@ export default {
         'Waar kan ik doneren?',
         'Mag ik met mijn medicatie doneren?',
         'Mag ik auto rijden na een donatie?',
-        'Wat is het verschil tussen bloed of plasma doneren?'
       ]
     };
   },
