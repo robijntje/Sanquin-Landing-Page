@@ -7,7 +7,7 @@
       <div class="content-box">
         <section class="step">
           <div class="icon">
-            <img src="/src/assets/heart-new-red.png" height="100px" alt="Stap 1" />
+            <img src="/src/assets/become-donor-s1.svg" height="81px" alt="Stap 1" />
           </div>
           <h2>Je meld je <br /> aan.</h2>
           <p>
