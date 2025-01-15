@@ -35,13 +35,12 @@ body {
     padding: 16px;
     font-size: 16px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
+    margin-bottom: 16px;
   }
 
 .content-box {
-    background-color: black;
-    padding: 16px;
+    background-color: #2C2C2C;
+    padding: 16px 16px 0 16px;
     margin: 0 16px;
     border-radius: 12px;
   }
@@ -84,7 +83,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     text-align: left;
     font-size: 16px;
     text-decoration: none;
@@ -115,8 +114,7 @@ body {
     padding: 16px;
     font-size: 16px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
+    margin-bottom: 16px;
   }
   
   .step h2 {
@@ -164,23 +162,24 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1px solid #BDBDBD;
     background-color: #fff;
     border-radius: 4px;
     padding: 16px;
     color: black;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
   }
   
   .video-details h3 {
     margin: 0;
     font-size: 18px;
+    color: black;
   }
   
   .video-details p {
     margin: 4px 0 0;
     font-size: 14px;
-    color: #666;
+    color: black;
   }
   
   .video-icon img {
