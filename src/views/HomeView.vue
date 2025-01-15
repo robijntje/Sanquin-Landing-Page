@@ -6,7 +6,7 @@
     <!-- Header contains logo in red -->
     <header>
       <div class="container">
-        <img src="@/assets/Sanquin Red.png" alt="Sanquin Logo in red" class="logo" />
+        <img src="@/assets/sanquin-white.png" alt="Sanquin Logo in white" class="logo" />
       </div>
     </header>
 
@@ -17,8 +17,8 @@
 
       <!-- Heart image at the center -->
       <img
-        src="@/assets/heart-new-red-cropped.png"
-        alt="A heart in red"
+        src="@/assets/heart-new-white.png"
+        alt="A heart in white"
         class="heart-image"
       />
 
