@@ -72,7 +72,7 @@ export default {
   }
 
   h1 {
-    color: #c00;
+    color: rgb(255, 255, 255);
     font-size: 2.2em;
     font-weight: 800;
     margin: 16px;
@@ -81,14 +81,14 @@ export default {
   
   p {
     font-size: 20px;
-    color: #333;
+    color: #ffffff;
     margin: 16px;
 
   }
 
   .primary-button {
-    background-color: #FF6700;
-    color: #000;
+    background-color: #A300FF;
+    color: #ffffff;
     width: 100%;
     margin: 16px;
 
@@ -99,8 +99,8 @@ export default {
   }
   
   .secondary-button {
-    background-color: #FF6F61EF;
-    color: #000;
+    background-color: #0047AB;
+    color: #ffffff;
     width: 40%;
     margin: 16px;
 

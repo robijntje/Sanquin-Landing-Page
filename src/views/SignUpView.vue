@@ -41,8 +41,11 @@ export default {
       const deltaX = this.startX - this.endX;
 
       if (deltaX > 50) {
-        // If swipe more than 50px, to to next page
+        // If swipe more than 50px to left, go to next page
         this.$router.push("/informatie");
+      } else if (deltaX < -50) {
+        // If swipe left to right, go back
+        this.$router.back();
       }
     },
   },
@@ -61,6 +64,7 @@ export default {
   background-color: black;
   padding: 16px;
   margin: 0 16px;
+  border-radius: 12px;
 }
 
 .header {
