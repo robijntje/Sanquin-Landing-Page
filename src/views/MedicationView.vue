@@ -32,9 +32,9 @@ export default {
       questionsItems: [
         { text: 'Paracetamol', color: 'green' },
         { text: 'Progynova', color: 'green' },
-        { text: '3', color: 'green' },
-        { text: '4', color: 'green' },
-        { text: '5', color: 'red' }
+        { text: 'Ibuprofen', color: 'green' },
+        { text: 'Fluoxetine', color: 'green' },
+        { text: 'Oxycodon', color: 'red' }
       ]
     };
   },
