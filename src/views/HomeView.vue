@@ -91,8 +91,8 @@ export default {
     color: #ffffff;
     width: 100%;
     margin: 16px;
-
-    border: none;
+    border-radius: 5px;
+    border: 0;
     padding: 16px;
     font-size: 1em;
     font-weight: bold;
@@ -103,8 +103,8 @@ export default {
     color: #ffffff;
     width: 40%;
     margin: 16px;
-
-    border: none;
+    border-radius: 5px;
+    border: 0;
     padding: 16px;
     font-size: 1em;
     font-weight: bold;
