@@ -7,12 +7,18 @@
       <div class="content-box">
         <section class="step">
           <div class="icon">
-            <img src="/src/assets/become-donor-s1.svg" height="81px" alt="Stap 1" />
+            <img src="/src/assets/become-donor-welcome.png" height="81px" alt="Welkom" />
           </div>
-          <h2>Je meld je <br /> aan.</h2>
+          <h2>Welkom bij <br /> de club.</h2>
           <p>
-            Start met aanmelden door naar de aanmeldpagina te gaan. Je doorloopt een
-            medische vragenlijst en maakt een afspraak bij jou in de buurt.
+            Wat fijn dat je wilt doneren. 
+Met jouw bloed of plasma 
+redden we levens en 
+ontwikkelen we medicijnen. 
+Met dit stappenplan kun jij 
+ons helpen om levens 
+te redden.
+
           </p>
           <button class="register-button">Aanmelden</button>
 
@@ -47,10 +53,7 @@ export default {
 
       if (deltaX > 50) {
         // If swipe more than 50px to left, go to next page
-        this.$router.push("/informatie");
-      } else if (deltaX < -50) {
-        // If swipe left to right, go back
-        this.$router.back();
+        this.$router.push("/informatie/hoemeldikmeaan/stap1");
       }
     },
   },
@@ -58,32 +61,6 @@ export default {
 </script>
 
 <style scoped>
-.navinstructions {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.navinstructions .left-icon {
-  height: 100px;
-  flex-shrink: 0;
-}
-
-.navinstructions .right-icon {
-  height: 100px;
-  flex-shrink: 0;
-}
-
-.navinstructions h1 {
-  font-size: 20px;
-  margin: 0;
-  text-align: center;
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
 
 </style>

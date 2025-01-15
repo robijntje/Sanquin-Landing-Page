@@ -18,7 +18,7 @@ body {
   
   .header-title {
     font-size: 20px;
-    margin-left: 54px;
+    margin-left: 52px;
   }
   
   h1 {
@@ -129,6 +129,34 @@ body {
   .step p {
     font-size: 20px;
     margin-bottom: 32px;
+    color: white;
+  }
+
+  .navinstructions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navinstructions .left-icon {
+    height: 100px;
+    flex-shrink: 0;
+  }
+  
+  .navinstructions .right-icon {
+    height: 100px;
+    flex-shrink: 0;
+  }
+  
+  .navinstructions h1 {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
   }
 
