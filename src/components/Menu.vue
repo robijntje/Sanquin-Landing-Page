@@ -57,7 +57,7 @@
     left: -250px; /* Off screen when button not tapped */
     width: 250px;
     height: 100%;
-    background-color: #d32f2f;
+    background-color: #A300FF;
     color: white;
     transition: left 0.3s ease; /* Sliding effect */
     z-index: 1200;
