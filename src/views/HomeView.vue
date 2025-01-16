@@ -32,9 +32,15 @@
 
     <!-- Footer with buttons -->
     <footer>
-      <button class="primary-button">Aanmelden</button>
-      <button class="secondary-button">Meer informatie</button>
-      <button class="secondary-button">Bekijk de verhalen</button>
+      <button class="primary-button" @click="$router.push('/informatie/hoemeldikmeaan')">
+        Aanmelden
+      </button>
+      <button class="secondary-button" @click="$router.push('/informatie')">
+        Meer informatie
+      </button>
+      <button class="secondary-button" @click="$router.push('/verhalen')">
+        Bekijk de verhalen
+      </button>
     </footer>
   </div>
 </template>
