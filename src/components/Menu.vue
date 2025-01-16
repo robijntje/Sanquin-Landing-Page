@@ -56,7 +56,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .menu-icon {
   font-size: 20px;
   padding: 10px;
@@ -103,6 +103,11 @@ export default {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
 }
 
 .close-button {
@@ -118,6 +123,7 @@ export default {
   margin-bottom: 16px;
   display: block;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .share-img {
