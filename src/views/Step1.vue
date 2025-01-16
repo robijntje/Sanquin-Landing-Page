@@ -14,8 +14,13 @@
               Start met aanmelden door naar de aanmeldpagina te gaan. Je doorloopt een
               medische vragenlijst en maakt een afspraak bij jou in de buurt.
             </p>
-            <button class="register-button">Aanmelden</button>
-  
+            
+    <button class="register-button">
+      <a href="https://www.sanquin.nl/aanmelden-donor/stap-1" target="_blank" class="register-button">
+        Aanmelden
+      </a>
+    </button>
+
           </section>
         </div>
       </main>

@@ -20,8 +20,11 @@ Zodra jouw bloedgroep nodig
 is, ontvang je via e-mail een 
 oproep voor je eerste donatie. 
             </p>
-            <button class="register-button">Aanmelden</button>
-  
+            <button class="register-button">
+      <a href="https://www.sanquin.nl/aanmelden-donor/stap-1" target="_blank" class="register-button">
+        Aanmelden
+      </a>
+    </button>  
           </section>
         </div>
       </main>

@@ -20,8 +20,11 @@ infectieziekten en om je
 bloedgroep te bepalen. Je 
 doneert nog niet.
             </p>
-            <button class="register-button">Aanmelden</button>
-  
+            <button class="register-button">
+      <a href="https://www.sanquin.nl/aanmelden-donor/stap-1" target="_blank" class="register-button">
+        Aanmelden
+      </a>
+    </button>  
           </section>
         </div>
       </main>
