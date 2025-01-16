@@ -25,6 +25,13 @@
             <img :src="video.image" :alt="video.header" />
           </div>
         </div>
+
+        <button class="register-button">
+      <a href="https://www.sanquin.nl/aanmelden-donor/stap-1" target="_blank" class="register-button">
+        Aanmelden
+      </a>
+    </button>  
+
       </section>
       </div>
       </main>
