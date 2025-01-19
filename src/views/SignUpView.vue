@@ -7,7 +7,7 @@
       <div class="content-box">
         <section class="step">
           <div class="icon">
-            <img src="/src/assets/become-donor-welcome.png" height="81px" alt="Welkom" />
+            <img src="/src/assets/become-donor-welcome.png" height="81px" alt="Drie poppetjes met een hartje erboven" />
           </div>
           <h2>Welkom bij <br /> de club.</h2>
           <p>
@@ -32,9 +32,9 @@ te redden.
       </div>
     </main>
     <footer class="navinstructions">
-      <img class="left-icon" src="/src/assets/backward.png" height="100px" alt="Achteruit" />
+      <img class="left-icon" src="/src/assets/backward.png" height="100px" alt="Pijl die naar links wijst" />
       <h1>swipe door de stappen</h1>
-      <img class="right-icon" src="/src/assets/forward.png" height="100px" alt="Vooruit" />
+      <img class="right-icon" src="/src/assets/forward.png" height="100px" alt="Pijl die naar rechts wijst" />
     </footer>
 
   </div>

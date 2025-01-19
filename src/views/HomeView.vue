@@ -5,7 +5,7 @@
     <!-- Header contains logo in red -->
     <header>
       <div class="container">
-        <img src="@/assets/sanquin-white.png" alt="Sanquin Logo in white" class="logo" />
+        <img src="@/assets/sanquin-white.png" alt="Het logo van Sanquin in het wit" class="logo" />
       </div>
     </header>
 
@@ -17,7 +17,7 @@
       <!-- Heart image at the center -->
       <img
         src="@/assets/heart-new-white-animated.gif"
-        alt="A heart in white"
+        alt="Een wit hart"
         class="heart-image"
       />
 
@@ -122,7 +122,7 @@ export default {
   }
 
   .heart-image {
-    width: 50%; /* Image scales to size of mobile phone, always 100% */
+    width: 50%; /* Image scales to size of mobile phone */
     margin: 16px 16px;
   }
 

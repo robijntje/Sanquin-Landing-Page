@@ -7,7 +7,7 @@
         <div class="content-box">
           <section class="step">
             <div class="icon">
-              <img src="/src/assets/become-donor-s1.svg" height="81px" alt="Stap 1" />
+              <img src="/src/assets/become-donor-s1.svg" height="81px" alt="Een poppetje met een vinkje rechts ernaast" />
             </div>
             <h2>Je meld je <br /> aan.</h2>
             <p>
@@ -25,9 +25,9 @@
         </div>
       </main>
       <footer class="navinstructions">
-        <img class="left-icon" src="/src/assets/backward.png" height="100px" alt="Achteruit" />
+        <img class="left-icon" src="/src/assets/backward.png" height="100px" alt="Pijl die naar links wijst" />
         <h1>swipe door de stappen</h1>
-        <img class="right-icon" src="/src/assets/forward.png" height="100px" alt="Vooruit" />
+        <img class="right-icon" src="/src/assets/forward.png" height="100px" alt="Pijl die naar rechts wijst" />
       </footer>
   
     </div>

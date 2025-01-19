@@ -9,7 +9,7 @@
         <div class="featured-video">
             <img
         src="@/assets/viora-banner.jpg"
-        alt="Featured video"
+        alt="Een foto van een vrouw die lacht in de camera"
         class="featured-image"
       />
         </div>

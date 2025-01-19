@@ -7,7 +7,7 @@
         <div class="content-box">
           <section class="step">
             <div class="icon">
-              <img src="/src/assets/become-donor-s3.png" height="81px" alt="Stap 3" />
+              <img src="/src/assets/become-donor-s3.png" height="81px" alt="Een kalender met een vinkje erin" />
             </div>
             <h2>Eerste <br /> afspraak.</h2>
             <p>
@@ -29,9 +29,9 @@ oproep voor je eerste donatie. 
         </div>
       </main>
       <footer class="navinstructions">
-        <img class="left-icon" src="/src/assets/backward.png" height="100px" alt="Achteruit" />
+        <img class="left-icon" src="/src/assets/backward.png" height="100px" alt="Pijl die naar links wijst" />
         <h1>swipe door de stappen</h1>
-        <img class="right-icon" src="/src/assets/forward.png" height="100px" alt="Vooruit" />
+        <img class="right-icon" src="/src/assets/forward.png" height="100px" alt="Pijl die naar rechts wijst" />
       </footer>
   
     </div>
