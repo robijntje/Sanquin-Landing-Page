@@ -5,7 +5,7 @@ The theme of the app is based on the 'Doneer bloed. Red levens.' ('Donate blood.
 ## Pages
 The webapp has several pages that tailor to different needs of the target audience.
 ### Landing page (Home)
-The landing page, or home page, is the first page users see when they open the webapp. The page functions as a step between an advertising/user campaign and the information on the website. The campaign slogan ('Doneer bloed. Red levens.') is shown with some additional facts in the middle-bottom of the page. The facts shown are reasons a user should become a blood donor and are based on research on what the target audience thinks are the best/most important reasons for becoming a blood donor.
+The landing page, or home page, is the first page users see when they open the webapp. The page functions as a step between an advertising/user campaign and the information on the website. The campaign slogan ('Doneer bloed. Red levens.') is shown with some additional facts in the middle-bottom of the page. The facts shown are reasons a user should become a blood donor and are based on research on what the target audience thinks are the best/most important reasons for becoming a blood donor. The user can choose how to continue by pressing one of three buttons or using the side menu: sign-up as a donor, see more information, or watch personal stories.
 ### Information page (More information)
 The information page is a page where a user gets a set of frequently asked questions. The questions are chosen based on the different questions the target audience asked while considering becoming a blood donor. The questions are answered on seperate pages to change the user experience based on the complexity of the answer.
 ### Story page (Bekijk de verhalen)
