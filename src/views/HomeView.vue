@@ -1,9 +1,9 @@
 <script setup>
 </script>
 <template>
-  <div id="app">
+  <div id="landing">
     <!-- Header contains logo in red -->
-    <header>
+    <header class="home-header">
       <div class="container">
         <img src="@/assets/sanquin-white.png" alt="Het logo van Sanquin in het wit" class="logo" />
       </div>
@@ -22,7 +22,7 @@
       />
 
       <!-- Basic facts -->
-      <p>
+      <p class="facts-list">
         Per donatie red je <strong>3 levens</strong>.<br />
         Aanmelden kan in <strong>3 minuten</strong>.<br />
         Reiskosten worden <strong>vergoed</strong>.<br />
@@ -46,10 +46,7 @@
 </template>
 
 <script>
-import Menu from '@/components/Menu.vue'
-export default {
-  name: "SanquinApp",
-};
+
 </script>
 
 <style scoped>
@@ -71,7 +68,7 @@ export default {
   }
 
   /* Sanquin Logo at home page */
-  header .logo {
+   .logo {
     width: 150px;
     margin-top: 30px;
   }
@@ -84,7 +81,7 @@ export default {
     line-height: 35px;
   }
   
-  p {
+  .facts-list {
     font-size: 18px;
     color: #ffffff;
     margin: 16px;
