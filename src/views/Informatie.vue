@@ -36,7 +36,7 @@ export default {
     };
   },
   computed: {
-    filteredQuestions() {
+    filteredQuestions() { //Filter questions based on search query
       if (!this.searchQuery) {
         return this.questionsItems;
       }

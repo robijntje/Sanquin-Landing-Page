@@ -45,11 +45,11 @@
     return {
         videos: [
         {
-          id: 1,
-          header: "Viora",
-          subhead: "Is genezen door bloedtransfusies",
-          image: "https://www.sanquin.nl/binaries/content/gallery/sanquinnl/donor-worden/donor--en-patientverhalen/viora.jpg",
-          link: "https://www.youtube.com/watch?v=jGDGQI92G9I&pp=ygUNc2FucXVpbiB2aW9yYQ%3D%3D"
+          id: 1, //Order of video in list
+          header: "Viora", //Patient name
+          subhead: "Is genezen door bloedtransfusies", //Short discription of story
+          image: "https://www.sanquin.nl/binaries/content/gallery/sanquinnl/donor-worden/donor--en-patientverhalen/viora.jpg", //Patient image
+          link: "https://www.youtube.com/watch?v=jGDGQI92G9I&pp=ygUNc2FucXVpbiB2aW9yYQ%3D%3D" //Video link
         },
         {
           id: 2,

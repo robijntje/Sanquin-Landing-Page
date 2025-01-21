@@ -26,11 +26,11 @@
 <script>
 export default {
   name: 'info',
-  data() {
+  data() { //List of medications
     return {
       searchQuery: '',
       questionsItems: [
-        { text: 'Paracetamol', color: 'green' },
+        { text: 'Paracetamol', color: 'green' }, //Name of medication + Can the user donate? (green=yes, red=no)
         { text: 'Progynova', color: 'green' },
         { text: 'Ibuprofen', color: 'green' },
         { text: 'Fluoxetine', color: 'green' },
@@ -39,7 +39,7 @@ export default {
     };
   },
   computed: {
-    filteredQuestions() {
+    filteredQuestions() { //Filter questions based on search query
       if (!this.searchQuery) {
         return this.questionsItems;
       }
