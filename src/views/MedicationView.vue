@@ -11,11 +11,11 @@
 
     <div class="content-box">
       <div class="questions-list">
-        <router-link v-for="(item, index) in filteredQuestions" :key="item.text" :to="getRoute(item.text)" class="questions-item">
+        <div v-for="(item, index) in filteredQuestions" :key="item.text" class="questions-item">
 
           <span class="circle" :style="{ backgroundColor: item.color }"></span>
           {{ item.text }}
-        </router-link>
+        </div>
       </div>
       <button class="contact-button">App met ons</button>
     </div>
@@ -48,12 +48,7 @@ export default {
       );
     }
   },
-  methods: {
-    getRoute(item) {
-      // Finds route for question based on name of question. Filters out spaces.
-      return `/informatie/${item.toLowerCase().replace(/[^a-z0-9]+/g, '')}`;
-    }
-  }
+
 };
 </script>
 
