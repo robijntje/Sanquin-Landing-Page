@@ -29,9 +29,7 @@ export default {
       searchQuery: '',
       questionsItems: [
         'Hoe meld ik me aan?',
-        'Waar kan ik doneren?',
         'Mag ik met mijn medicatie doneren?',
-        'Mag ik auto rijden na een donatie?',
       ]
     };
   },
